@@ -1,0 +1,271 @@
+p,h3{
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+@media(min-width: 392px){
+    .containertittle{
+        display: flex;
+        margin: 10px auto;
+        justify-content: flex-start;
+        height: auto;
+        width: auto;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+    .title{
+        height: auto;
+        width: fit-content;
+      
+        font-family: "corinthia", cursive;
+        font-size: 30px;
+    }
+    .pizzetittle{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        height: 255px;
+        width: 250px;
+        background-color: bisque;
+        border-radius: 20px;
+        margin: 10px auto;
+    }
+    .who{
+        font-family: "inter";
+        font-size: 20px;
+        font-weight: bold;
+        color: #000000;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .content{
+        font-family: "inter";
+        font-size: 20px;
+        font-weight: normal;
+        color: #000000;
+        margin: 0 10px;
+    }
+    .slogan{
+        width: fit-content;
+        font-family: "inter";
+        font-size: 13px;
+        font-weight: bold;
+        color: #000000;
+        margin: 0;
+    }
+
+    .container2{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 650px;
+        width: 290px;
+        margin: 10px auto;
+        gap: 20px;
+        justify-content: center;
+        overflow-y: hidden;
+    }
+    .son{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        
+    }
+    #son1{
+        background-image: url(pizza1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #son2{
+        background-image: url(pizza2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #son3{
+        background-image: url(pizza3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: none;
+        font-family: "inter";
+        font-size: 20px;
+        font-weight: regular;
+        color: #ffffff;
+        margin: 30px auto;
+        width: 200px;
+        height: 50px;
+        background-color: #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+    #menuContainer {
+        display: none; /* Nascondi il menu inizialmente */
+        background-color: bisque;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px auto;
+        width: 300px;
+        text-align: center;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    #menuContainer.visible {
+        display: block; /* Mostra il menu quando ha la classe "visible" */
+    }
+}
+@media(min-width: 1080px){
+    .containertittle{
+        display: flex;
+        margin: 10px 2.5%;
+        justify-content: flex-start;
+        height: auto;
+        width: auto;
+        
+    }
+.title{
+    height: auto;
+    width: fit-content;
+    margin: 0 ;
+    font-family: "Corinthia", cursive;
+    font-size: 80px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.054);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 20px;
+    margin: 10px 2.5%;
+}
+.who{
+    font-family: "inter";
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content{
+    font-family: "inter";
+    font-size: 20px;
+    font-weight: normal;
+    color: #000000;
+    margin: 10px 10px;
+}
+.line{
+    width: auto;
+    height: 1px;
+    background-color: #00000036;
+    margin: 30px 2.5%;
+}
+.pizzetittle{
+    width: auto;
+    height: auto;
+    margin: 10px 2.5%;
+}
+.slogan{
+    width: fit-content;
+    font-family: "inter";
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+}
+.container2{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    margin: 10px 2.5%;
+    gap: 20px;
+    justify-content: flex-start;
+}
+.son{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 282px;
+    width: 282px;
+    border-radius: 20px;
+}
+#son1{
+    background-image: url(pizza1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#son2{
+    background-image: url(pizza2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#son3{
+    background-image: url(pizza3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#son4{
+    background-image: url(pizza4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#son5{
+    background-image: url(pizza5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#son6{
+    background-image: url(pizza6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: none;
+    font-family: "inter";
+    font-size: 30px;
+    font-weight: regular;
+    color: #ffffff;
+    margin: 30px auto;
+    width: 400px;
+    height: 50px;
+    background-color: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+#menuContainer {
+    display: none; /* Nascondi il menu inizialmente */
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#menuContainer.visible {
+    display: block; /* Mostra il menu quando ha la classe "visible" */
+}
+}
