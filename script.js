@@ -17,7 +17,7 @@ const menuDiv = document.createElement('div');
 menuDiv.className = 'menu_pizze';
 menuDiv.style.display = 'none'; // Il menù è nascosto di default
 
-// Per ogni pizza nell'array, crea un elemento HTML che la rappresenta e aggiungilo al menù
+
 menuPizze.forEach(pizza => {
     const item = document.createElement('div');
     item.className = 'pizza_item';
